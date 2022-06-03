@@ -1,6 +1,5 @@
-    
-document.querySelector('button').addEventListener('click', function() {
-    var context = new AudioContext();
-    // Setup all nodes
-    // ...
-  });  
+var audio = document.createElement('audio');
+audio.setAttribute('src', 'mycar.mp3'); 
+audio.loop=true;
+audio.play();    
+   
