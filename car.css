@@ -4,7 +4,7 @@
 }
 body{
     overflow: hidden;
-    animation: shakebody 6s  linear infinite; 
+    animation: shakebody 4s  linear infinite; 
     
 }
 .sky{
@@ -34,14 +34,14 @@ body{
     
 }
 .car{
-    background-image: url("car_body.png");
+    background-image: url(car_body.png);
     background-size: cover;
     height: 122px;
     width: 429px;
     position: absolute;
     left: 187px;
-    bottom: 50px;
-    animation: shake 4s linear infinite;
+    bottom: 65px;
+    animation: shake 2s linear infinite;
 }
 .wheel1 img{
       
